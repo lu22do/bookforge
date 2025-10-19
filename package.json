@@ -1,0 +1,17 @@
+{
+  "name": "bookforge",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "build": "npm -w shared run build && npm -w server run build && npm -w web run build",
+    "dev": "concurrently \"npm -w server run dev\" \"npm -w web run dev\"",
+    "typecheck": "npm -w shared run build && npm -w server run typecheck && npm -w web run typecheck"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
