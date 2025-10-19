@@ -5,13 +5,7 @@ A starter app to brainstorm and structure books: themes, style, characters, outl
 ## Quick start
 
 ```bash
-# 1) install deps
-npm install
-
-# 2) start API and Web in parallel
-npm run dev
-# API on http://localhost:3001
-# Web on http://localhost:5173
+TBD
 ```
 
 > The server stores data **in memory**. Restarting the server resets the data. The web app caches state in the backend; optional localStorage persistence can be toggled in the UI.
